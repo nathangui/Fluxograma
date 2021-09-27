@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="natan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-13 11:51:29 "/>
+        <attribute name="created" value="bmF0YW47REVTS1RPUC1GQkJQODU0OzIwMjEtMDktMTM7IjExOjA4OjQ1ICI7Mjc0OA=="/>
+        <attribute name="edited" value="bmF0YW47REVTS1RPUC1GQkJQODU0OzIwMjEtMDktMTM7IjExOjUxOjI5ICI7MTsyODU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="2"/>
+            <assign variable="b" expression="3"/>
+            <output expression="(a&gt;B)" newline="True"/>
+            <output expression="(a&gt;=b)" newline="True"/>
+            <output expression="(a&lt;b)" newline="True"/>
+            <output expression="(a&lt;=b)" newline="True"/>
+            <output expression="(a==b)" newline="True"/>
+            <output expression="(a!=b)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
